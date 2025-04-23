@@ -180,13 +180,13 @@ with tab1:
                     
                     # Display images in rows instead of columns
                     st.write("#### Window Heatmap")
-                    st.image(os.path.join(OUTPUT_FOLDER, "window_heatmap.png"), use_column_width=True)
+                    st.image(os.path.join(OUTPUT_FOLDER, "window_heatmap.png"), use_container_width=True)
                     
                     st.write("#### Overall Trend")
-                    st.image(os.path.join(OUTPUT_FOLDER, "overall_trend.png"), use_column_width=True)
+                    st.image(os.path.join(OUTPUT_FOLDER, "overall_trend.png"), use_container_width=True)
                     
                     st.write("#### Selected Windows")
-                    st.image(os.path.join(OUTPUT_FOLDER, "selected_windows.png"), use_column_width=True)
+                    st.image(os.path.join(OUTPUT_FOLDER, "selected_windows.png"), use_container_width=True)
                     
                 except Exception as e:
                     logger.error(f"Error processing upload: {str(e)}")
@@ -260,13 +260,13 @@ with tab2:
                         
                         # Display images in rows instead of columns
                         st.write("#### Window Heatmap")
-                        st.image(os.path.join(OUTPUT_FOLDER, "window_heatmap.png"), use_column_width=True)
+                        st.image(os.path.join(OUTPUT_FOLDER, "window_heatmap.png"), use_container_width=True)
                         
                         st.write("#### Overall Trend")
-                        st.image(os.path.join(OUTPUT_FOLDER, "overall_trend.png"), use_column_width=True)
+                        st.image(os.path.join(OUTPUT_FOLDER, "overall_trend.png"), use_container_width=True)
                         
                         st.write("#### Selected Windows")
-                        st.image(os.path.join(OUTPUT_FOLDER, "selected_windows.png"), use_column_width=True)
+                        st.image(os.path.join(OUTPUT_FOLDER, "selected_windows.png"), use_container_width=True)
                     
                 except Exception as e:
                     logger.error(f"Error processing video: {str(e)}")
