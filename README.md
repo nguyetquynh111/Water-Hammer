@@ -62,3 +62,4 @@ A Streamlit application for analyzing vessel images to detect patterns and trend
 
 - Python 3.9+
 - See `requirements.txt` for Python dependencies # Water-Hammer
+# Water-Hammer
